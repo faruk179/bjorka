@@ -45,8 +45,7 @@ function login($username, $password)
     } else {
         return "Login gagal";
     }
-}
-?>
+}?>
 
 <form method="POST">
     Masukan Username:<input type="text" name="username">
@@ -63,4 +62,3 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
 
     echo login($a, $b);
 }
-?>
