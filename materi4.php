@@ -89,17 +89,3 @@ while ($row = mysqli_fetch_assoc ($result)) {
     echo "<td><a href='materi4.php?edit=" . $row['id'] . "'>Edit</a> |<a href='materi4.php?hapus=" .$row['id'] . "'>Hapus</a></td>";
     echo "</tr>";
 }
-
-if (isset($_POSt['kirim'])) {
-        $username = $_POST['username'];
-        $password = $_POST['password'];
-        $nama = $_POST['nama'];
-        $email = $_POST['email'];
-        $query = "UPDATE user SET username = '$username', password = '$password', nama = '$nama', email = '$email' WHERE id = '$id";
-
-        if (mysqli_query($koneksi, $query)) {
-            echo "data berhasil diupdate";
-        }  else {
-            echo "data gagal diupdate";
-        }
-}
