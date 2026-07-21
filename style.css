@@ -1,0 +1,80 @@
+body{
+    background:#f4f7fb;
+    font-family:'Segoe UI',sans-serif;
+}
+
+/* Navbar */
+.navbar{
+    background:linear-gradient(90deg,#2563eb,#3b82f6)!important;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+/* Sidebar */
+.bg-white{
+    box-shadow:0 0 20px rgba(0,0,0,.08);
+}
+
+.list-group{
+    padding:15px 10px;
+}
+
+.list-group-item{
+    border:none!important;
+    border-radius:15px!important;
+    margin-bottom:8px;
+    padding:14px 18px;
+    font-size:16px;
+    font-weight:500;
+    color:#374151;
+    transition:.3s;
+}
+
+.list-group-item i{
+    width:25px;
+    font-size:18px;
+    color:#2563eb;
+}
+
+.list-group-item:hover{
+    background:#eef4ff;
+    color:#2563eb;
+    transform:translateX(5px);
+}
+
+.list-group-item.active{
+    background:#2563eb!important;
+    color:#fff!important;
+}
+
+.list-group-item.active i{
+    color:#fff;
+}
+
+/* Card */
+.card{
+    border:none;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.card-header{
+    background:#fff;
+    border:none;
+    font-weight:bold;
+}
+
+/* Button */
+.btn{
+    border-radius:12px;
+}
+
+/* Table */
+.table thead{
+    background:#2563eb;
+    color:white;
+}
+
+.table{
+    border-radius:15px;
+    overflow:hidden;
+}
